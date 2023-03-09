@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logView SYSTEM "logView.dtd">
+
+<logView>
+<display>
+   <timeAxis start="0" end="100" xSize="100"/>
+   <processAxis ySize="100"/>
+   <window  xSize="1000" ySize="600"/>
+   <messages type="ARE_YOU_ALIVE" color="#cc00ff"/>
+   <messages type="I_AM_ALIVE" color="#ccaaff"/>
+   <label halign="left" valign="top" distance="30" percent="0.7"/>
+</display>
+
+<file>
+    <printer filename="/home/luiz/Dropbox/workspace/SisDis/all2all.ps"/>    
+    <log filename="/home/luiz/Dropbox/workspace/SisDis/all2all.log"/>
+</file>
+</logView>
